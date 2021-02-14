@@ -1,0 +1,25 @@
+.onlineuser{
+    display: flex;
+    align-items: center;
+    color: rgb(145, 243, 145);
+    flex: 1;
+    /* padding-left:15px; */
+    /* padding-top: 15px; */
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(41, 40, 40);
+}
+.onlineuser>h5{
+    color: white;
+    padding-left: 10px;
+    /* padding-top: 2px; */
+   
+}
+
+.onlineuser:hover{
+background-color: rgb(94, 93, 93);
+cursor: pointer;
+border: none;
+border-radius: 2px;
+
+}

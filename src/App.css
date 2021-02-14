@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+.App{
+   display: flex;
+   flex-direction: column;
+}
+
+.background::before{
+   background-image:url('./back.jpg');
+   width: 100%;
+   height: 100%;
+   -webkit-background-size: cover ;
+   background-size: cover;
+   content: '';
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+   display: block;
+   /* filter: blur(1.8px); */
+   transition: 5s;
+
+   animation-name: animate;
+   animation-direction: alternate-reverse;
+   animation-duration: 30s;
+   animation-fill-mode: forwards;
+   animation-iteration-count:infinite;
+   animation-play-state: running;
+   animation-timing-function:cubic-bezier();
+}
+
+
+@keyframes animate{
+   0%{
+      background-image: url('./a.jpg');
+   }
+   20%{
+      background-image: url('./aaaa.jpg');
+   }
+   40%{
+      background-image: url('./aaaaaaaa.jpg');
+   }
+   60%{
+      background-image: url('./aarr.jpg');
+   }
+    80%{
+      background-image: url('./back.jpg');
+   }
+   100%{
+      background-image: url('./sss.jpg');
+   }
+}

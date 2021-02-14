@@ -1,0 +1,37 @@
+.clubs{
+    display: flex;
+    justify-content: space-between;
+    min-width: 220px;
+    align-items: center;
+    color: white;
+    background-color: rgb(41, 40, 40);
+    margin: 1px;
+}
+.clubs:hover{
+    background: #434343;
+}
+.club_profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.club_photo{
+    padding: 5px;
+}
+
+.club_profile > h3{
+    margin-left: 10px;
+}
+.club_profile > h3:hover{
+    cursor: pointer;
+}
+.club_options{
+    padding: 5px;
+    padding-top: 10px;
+    color: grey;
+}
+.club_options:hover{
+    color: white;
+    cursor: pointer;
+    
+}

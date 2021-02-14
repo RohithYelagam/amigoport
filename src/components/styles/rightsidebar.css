@@ -1,0 +1,18 @@
+.rightsidebar{
+    display: flex;
+     flex-direction: column;
+      flex: 0.15; 
+      background-color:#131C29;
+}
+.rightsidebar_header{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color:  rgb(0, 240, 0);
+    background-color: #131C20;
+    
+}
+.rightsidebar_header > h4{
+    color: white;
+    padding-left: 10px;
+}
