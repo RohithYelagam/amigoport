@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/amigoport/static/css/main.5071f665.chunk.css",
+    "main.js": "/amigoport/static/js/main.694feae0.chunk.js",
+    "main.js.map": "/amigoport/static/js/main.694feae0.chunk.js.map",
+    "runtime-main.js": "/amigoport/static/js/runtime-main.08a55755.js",
+    "runtime-main.js.map": "/amigoport/static/js/runtime-main.08a55755.js.map",
+    "static/js/2.dba82702.chunk.js": "/amigoport/static/js/2.dba82702.chunk.js",
+    "static/js/2.dba82702.chunk.js.map": "/amigoport/static/js/2.dba82702.chunk.js.map",
+    "index.html": "/amigoport/index.html",
+    "static/css/main.5071f665.chunk.css.map": "/amigoport/static/css/main.5071f665.chunk.css.map",
+    "static/js/2.dba82702.chunk.js.LICENSE.txt": "/amigoport/static/js/2.dba82702.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/amigoport/static/media/sss.c6a7ac44.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08a55755.js",
+    "static/js/2.dba82702.chunk.js",
+    "static/css/main.5071f665.chunk.css",
+    "static/js/main.694feae0.chunk.js"
+  ]
+}
